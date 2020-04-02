@@ -17,7 +17,6 @@ nativDistance = 0
 canteen = 5
 oasisChance = 0
 
-
 while not done:
 
     nativDistance = mTraveled - nativTraveled
@@ -69,7 +68,6 @@ while not done:
         else:
             print("\nThe canteen is empty.")
 
-
     if oasisChance == 50:
         print("\nYou have found and Oasis! Now your canteen is full, you feel no thirst and your camel is well rested!")
         canteen = 5
@@ -99,5 +97,4 @@ while not done:
         print("\nYou have escaped!")
         done = True
         
-    
 print("\nDone.")
